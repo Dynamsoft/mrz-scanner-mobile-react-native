@@ -1,0 +1,1 @@
+# mrz-scanner-mobile-react-native
