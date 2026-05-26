@@ -16,7 +16,7 @@ The full scan flow lives in a single file: [ScanMRZ/src/App.tsx](ScanMRZ/src/App
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/Dynamsoft/mrz-scanner-mobile-react-native-dev.git
+git clone https://github.com/Dynamsoft/mrz-scanner-mobile-react-native.git
 cd mrz-scanner-mobile-react-native-dev/ScanMRZ
 
 # 2. Install JavaScript dependencies
