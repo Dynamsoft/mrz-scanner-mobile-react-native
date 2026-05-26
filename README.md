@@ -90,16 +90,18 @@ For support for other MRTD types, contact the [Dynamsoft Support Team](https://w
 
 ## System Requirements
 
-- React Native **0.71.0** or higher (this sample is pinned to **0.79.0**).
-- Node **18** or higher.
+The SDK supports React Native **0.71.0** or higher. The toolchain versions below correspond to the version this sample is pinned to (**0.85.3**). If you adapt the sample to a different React Native version, your Node, JDK, Gradle, Xcode, and iOS deployment-target requirements are dictated by *that* version — check its release requirements rather than the values here.
+
+- React Native **0.71.0** or higher (this sample is pinned to **0.85.3**).
+- Node **20.19.4** or higher.
 - **Android**
   - Supported OS: Android 5.0 (API Level 21) or higher.
   - Supported ABIs: armeabi-v7a, arm64-v8a, x86, x86_64.
-  - Development environment: Android Studio 2022.2.1+ (2025.2.1 recommended), Java 17+, Gradle 8.0+.
+  - Development environment: Android Studio 2022.2.1+ (2025.2.1 recommended), Java 17–20, Gradle 9.x.
 - **iOS**
-  - Supported OS: iOS 13 or higher.
+  - Supported OS: iOS 15.1 or higher.
   - Supported ABIs: arm64, x86_64.
-  - Development environment: Xcode 13+ (Xcode 14.1+ recommended).
+  - Development environment: Xcode 16.1 or higher.
 
 ## Project Structure
 
@@ -112,7 +114,7 @@ ScanMRZ/
 ├── android/                             # Native Android project
 ├── ios/                                 # Native iOS project (Podfile, .xcworkspace)
 ├── index.js                             # Registers App as the root component
-└── package.json                         # Pinned to dynamsoft-mrz-scanner-bundle-react-native@3.4.1300
+└── package.json                         # Pinned to dynamsoft-mrz-scanner-bundle-react-native@3.4.1310
 ```
 
 ## Platform Configuration
